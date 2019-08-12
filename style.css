@@ -1,0 +1,15 @@
+body {
+    background-image: url("https://www.tsuru.fr/8567-large_default/red-japanese-cotton-fabric-flower-patterns-made-in-japan-width-110-cm-x-1m.jpg");
+}
+
+h1 {
+    text-align: center;
+}
+.navbar-defaults {
+    color: black;
+}
+.navbar-default {
+    background-color: black;
+    background-image: none;
+    background-repeat: no-repeat;
+   }
