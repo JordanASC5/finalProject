@@ -1,0 +1,13 @@
+body {
+    background-image: url("images/red-chinese-background.jpg");
+}
+h1 {
+    text-align: center;
+    position: absolute;
+    right: 25%;
+
+}
+#headerPic {
+    background-image: url("images/Plain-Weave.png");
+    opacity: 0.900;
+}
