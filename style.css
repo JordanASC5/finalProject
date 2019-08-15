@@ -13,3 +13,135 @@ h1 {
     background-image: none;
     background-repeat: no-repeat;
    }
+h3 {
+    background-image: url(https://secure.img1-fg.wfcdn.com/im/55703682/resize-h340-p1-w340%5Ecompr-r70/5835/58354893/Wesco+Gentry+Goal+Oriented+Fabric.jpg);
+}
+#welcomingHeader {
+    background-image: url(https://secure.img1-fg.wfcdn.com/im/55703682/resize-h340-p1-w340%5Ecompr-r70/5835/58354893/Wesco+Gentry+Goal+Oriented+Fabric.jpg);
+}
+#columnrowHome {
+    background-image: url(https://dbk5b6whw6mn4.cloudfront.net/attachments/images/medium/13461%20160.jpg);
+}
+#columnrowHome2 {
+    background-image: url(https://dbk5b6whw6mn4.cloudfront.net/attachments/images/medium/13461%20160.jpg);
+}
+
+#theWitcher3 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#sekiroDietwice {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/6/6e/Sekiro_art.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#skyrimESV {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#devilMC5 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/c/cb/Devil_May_Cry_5.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#theLoZBotW {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#darkSouls {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#darkSoulsIII {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/bb/Dark_souls_3_cover_art.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#swordartOnline {
+    background-image: url(http://onlinefanatic.com/wp-content/uploads/2015/12/Sword-Art-Online.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#samuraiChamploo {
+    background-image: url(http://onlinefanatic.com/wp-content/uploads/2015/12/Samurai-Champloo.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#bleach {
+    background-image: url(http://onlinefanatic.com/wp-content/uploads/2015/12/Bleach.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#gintama {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMDkxZTJjZTEtMDRjMy00Yzk1LWI5YjItMjIwYmVlYzhlZWZhXkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#inuYasha {
+    background-image: url(http://onlinefanatic.com/wp-content/uploads/2015/12/InuYasha.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#fatestaynightUBW {
+    background-image: url(http://onlinefanatic.com/wp-content/uploads/2015/12/Fate-Stay-Night-Unlimited-Works.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#bloodplus {
+    background-image: url(http://onlinefanatic.com/wp-content/uploads/2015/12/Blood.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#claymore {
+    background-image: url(http://onlinefanatic.com/wp-content/uploads/2015/12/Claymore.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#infoButton {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}

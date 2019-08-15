@@ -1,36 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>SwordFightingMaster</title>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-  <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-          <div class="navbar-header">
-              <a class="navbar-brand" href="#">SFM</a>
-          </div>
-          <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Games</a></li>
-              <li><a href="#">Anime</a></li>
-              <li><a href="#">Sword Styles</a></li>
-              <li><a href="#">Forum</a></li>
-              <li><a href="#">About</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">𝕾𝕱𝕸</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="mainForum.html">𝕱𝖔𝖗𝖚𝖒<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="Anime_List.html">𝕬𝖓𝖎𝖒𝖊<span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">𝕬𝖇𝖔𝖚𝖙</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  𝕲𝖆𝖒𝖊𝖘
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Game_List.html">𝕲𝖆𝖒𝖊𝖘' 𝕷𝖎𝖘𝖙</a>
+                <a class="dropdown-item" href="Years_List.html">𝖄𝖊𝖆𝖗'𝖘 𝕷𝖎𝖘𝖙</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Game_Series.html">𝕲𝖆𝖒𝖊 𝕾𝖊𝖗𝖎𝖊𝖘</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </li>
           </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">𝕾𝖊𝖆𝖗𝖈𝖍</button>
+          </form>
+        </div>
+      </nav>
+      <h1>
+        <strong>𝕾𝖜𝖔𝖗𝖉𝕱𝖎𝖌𝖍𝖙𝖎𝖓𝖌𝕸𝖆𝖘𝖙𝖊𝖗</strong>
+      </h1>
+      <div class="container text-dark p-3">
+          <div class="row">
+            <div class="col-4 border border-dark" id="welcomingHeader">
+                <h3>
+                  <strong>𝖂𝖊𝖑𝖈𝖔𝖒𝖊!</strong>
+                </h3>
+                <p>𝕾𝖜𝖔𝖗𝖉𝖋𝖎𝖌𝖍𝖙𝖎𝖓𝖌𝕸𝖆𝖘𝖙𝖊𝖗.𝖔𝖗𝖌 𝖎𝖘 𝖆 𝖋𝖗𝖊𝖊 𝖜𝖊𝖇𝖘𝖎𝖙𝖊 𝖆𝖓𝖉 𝖆𝖓𝖞 𝖚𝖘𝖊𝖗 𝖎𝖘 𝖆𝖇𝖑𝖊 𝖙𝖔 𝖚𝖘𝖊 𝖎𝖙 𝖋𝖔𝖗 𝖑𝖔𝖔𝖐𝖎𝖓𝖌 𝖚𝖕 𝖆𝖓𝖞 𝖎𝖓𝖋𝖔𝖗𝖒𝖆𝖙𝖎𝖔𝖓 𝖔𝖓 𝖙𝖍𝖊𝖎𝖗 𝖘𝖜𝖔𝖗𝖉𝖋𝖎𝖌𝖍𝖙𝖎𝖓𝖌 𝖌𝖆𝖒𝖊. 
+                  𝕭𝖊 𝖋𝖗𝖊𝖊 𝖙𝖔 𝖊𝖝𝖕𝖑𝖔𝖗𝖊 𝖆𝖗𝖔𝖚𝖓𝖉, 𝖙𝖍𝖊 𝖜𝖊𝖇𝖘𝖎𝖙𝖊 𝖎𝖘𝖓𝖙 𝟙𝟘𝟘% 𝖋𝖎𝖓𝖎𝖘𝖍𝖊𝖉 𝖇𝖚𝖙 𝖆𝖑𝖑 𝖚𝖘𝖊𝖗𝖘 𝖎𝖘 𝖆𝖑𝖑𝖔𝖜𝖊𝖉 𝖙𝖔 𝖆𝖉𝖉 𝖎𝖓 𝖓𝖊𝖜 𝖎𝖓𝖋𝖔𝖗𝖒𝖆𝖙𝖎𝖔𝖓.
+                </p>
+            </div>
+            <div class="col-4">
+              <!-- column2 -->
+            </div>
+            <div class="col-4">
+                <img src="images\SwordFightingMasterLogo.png"/>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+        <h1>
+          <strong>Trending Games!</strong>
+        </h1>
       </div>
-  </nav>
-  
-<div class="container">
-  <h3>Basic Navbar Example</h3>
-  <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
-</div>
+    <div class="container" id="columnrowHome">
+    <div class="row border border-dark" style="height: 500px; overflow: scroll;">
+      <div class="col-md-2 p-5 border border-dark" id="theWitcher3">
+      </div>
+      <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+        <p><strong> Witcher 3: Wild Hunt: </strong>Winner of over 250 Game of the Year awards, The Witcher 3: Wild Hunt is a story-driven, open world adventure set in a dark fantasy universe. 
+        You are Geralt of Rivia, mercenary monster slayer. At your disposal is every tool of the trade: razor-sharp swords, lethal mixtures, stealthy crossbows, and powerful combat magic.
+        Before you stands a war-torn, monster-infested continent you can explore at will. Your current contract? Tracking down the Child of Prophecy, a living weapon that can alter the shape of the world.
+      </p>
+      <a href="witcher3.html">
+        <button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+      </a>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="sekiroDietwice">
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>In Sekiro: Shadows Die Twice; </strong> You are the “one-armed wolf”, a disgraced and disfigured warrior rescued from the brink of death. Bound to protect a young lord who is the descendant of an ancient bloodline, 
+      you become the target of many vicious enemies, including the dangerous Ashina clan. When the young lord is captured, nothing will stop you on a perilous quest to regain your honor, not even death itself.
+      Explore late 1500s Sengoku Japan, a brutal period of constant life and death conflict, as you come face to face with larger than life foes in a dark and twisted world. Unleash an arsenal of deadly prosthetic tools and powerful ninja abilities while you blend stealth, vertical traversal, and visceral head to head combat in a bloody confrontation.
+    </p>
+    <a href="SekiroShadowsDieTwice.html">
+      <button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </a>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="skyrimESV">
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Elder Scrolls V:</strong> Skyrim is an action role-playing game, playable from either a first or third-person perspective. The player may freely roam over the land of Skyrim which is an open world environment consisting of wilderness expanses, dungeons, cities, towns, fortresses, and villages. Players may navigate the game world more quickly by riding horses or by utilizing a fast-travel system which allows them to warp to previously discovered locations.
+      The game's main quest can be completed or ignored at the player's preference after the first stage of the quest is finished. However, some quests rely on the main storyline being at least partially completed. Non-player characters (NPCs) populate the world and can be interacted with in a number of ways: the player may engage them in conversation, marry an eligible NPC, kill them or engage in a nonlethal "brawl". 
+    </p>
+    <a href="ElderScrollsV.html">
+    <button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+  </a>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="devilMC5">
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Devil May Cry 5: </strong>In Red Grave City on May 16, devil hunter Nero finds a demon named Urizen who has planted a demonic tree called Qliphoth in the city; it is killing people for their blood. Dante is ultimately defeated and ejected from the Qliphoth with his sword Rebellion shattered. His allies Lady and Trish are captured, and an ally of Dante, V, convinces the weakened Nero to escape. On June 15, Nero returns to Red Grave after being outfitted with the "Devil Breaker" prosthetic arm his friend Nico made for him after Urizen amputated his right arm.
+      Nero meets up with V, who is seeking Qliphoth for its fruit—born of condensed human blood—which makes whomever consumes it the king of the Underworld. As the pair destroy the Qliphoth's roots while searching for Dante, 
+      Nero rescues Lady. V seeks the Devil Sword Sparda in fear of its namesake's descendants acquiring it. V splits off to find the Sparda first and discovers it along with a hibernating Dante, whose presence was being hidden by the sword.
+    </p>
+    <button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="theLoZBotW">
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>The Legend of Zelda: Breath of the Wild</strong> is an action-adventure game set in an open world environment where players are tasked with exploring the kingdom of Hyrule while controlling Link. In terms of structure, Breath of the Wild encourages nonlinear gameplay, 
+      which is illustrated by the game's lack of defined entrances or exits to areas, scant instruction given to the player, and encouragement to explore freely. Breath of the Wild introduces a consistent physics engine to the Zelda series, letting players approach problems in different ways rather than trying to find a single solution. The game also integrates a "chemistry engine" that defines the physical properties of most objects and governs how they interact with the player and one another.
+       For example, players may take advantage of the game's dynamic weather by throwing metal objects at enemies during thunderstorms to attract a lightning strike. However, the level of realism offered in the "chemistry engine" also means that players will equally attract an unavoidable fatal lightning strike if wearing any metal during thunderstorms. These design approaches result in a generally unstructured and interactive world that rewards experimentation and allows for nonlinear completion of the story.
+      </p>
+      <button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="darkSouls">
+    
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Dark Souls </strong>employs minimalist storytelling to convey its plot and lore. Historical events in its world and their significance are often implicit or left to player interpretation rather than being fully shown or explained. Most of the story is given to the player through dialogue from non-player characters within the game, flavor text from items, and world design.
 
+The opening cutscene establishes the premise of the game. Dragons once ruled the world. In this period, a man known as Gwyn happens upon an object known as the "First Flame" and finds the "Lord Souls." He and his allies use their power to defeat the dragons, which starts the Age of Fire. Over time, the flames begin to fade with the rise of humans, and Gwyn sacrifices himself to prolong the Age of Fire. With the flame artificially rekindled, the undead curse begins to plague humanity, causing some humans to resurrect upon death constantly.
+</p>
+<button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="darkSoulsIII">
+      
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Dark Souls III: </strong>Set in the Kingdom of Lothric, a bell has rung to signal that the First Flame, responsible for maintaining the Age of Fire, is dying out. As has happened many times before, the coming of the Age of Dark produces the undead: cursed beings that rise up after death. The Age of Fire can be prolonged with the linking of the fire, a ritual in which great lords and heroes sacrifice their souls to rekindle the First Flame. However, Prince Lothric, the chosen linker for this age, has abandoned his duty and instead chooses to watch the flame die from afar. The bell is the last hope for the Age of Fire, resurrecting previous Lords of Cinder (heroes who linked the flame in past ages) to attempt to link the fire again; however, all but one Lord shirk their duty.
+The Ashen One, an Undead who failed to become a Lord of Cinder and thus called an Unkindled, rises and must link the fire by returning Prince Lothric and the defiant Lords of Cinder to their thrones in Firelink Shrine. The Lords include the Abyss Watchers, a legion of warriors sworn to protect the land from the Abyss and linked by a single soul; Yhorm the Giant, who was once a conqueror of the very people for whom he then sacrificed his life; and Saint Aldrich of the Deep, who became a Lord of Cinder despite his ravenous appetite for both men and gods. Lothric himself was raised in order to link the First Flame, but rejected his destiny and chose to watch the fire fade.
+</p>
+<button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="container">
+<h1>
+  <strong>Trending SF Anime's!</strong>
+</h1>
+<h2 class="text-center">(information is Opinion Based)</h2>
+</div>
+<div class="container" id="columnrowHome2">
+    <div class="row border border-dark" style="height: 500px; overflow: scroll;">
+      <div class="col-md-2 p-5 border border-dark" id="swordartOnline">
+        
+      </div>
+      <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+        <p>2022, <strong>Sword Art Online</strong>, a new brand of VRMMO, has been released. Kirito is one the 10,000 that logged in to SAO during the first day. Unfortunately, they found themselves soon unable to log out and trapped inside this deadly game.
+
+        Like the name says, this anime completely focuses on sword fighting. Contrary to most MMO, SAO doesn’t have a magic system. All the player can rely on are the sword skills. Sword skills are system assisted, but you have to do the motions yourself. Kirito itself is a dual wielding swordsman, and has the fastest reaction time in the game.--There are <strong>4</strong> Seasons to this Anime.
+      </p>
+      <button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="samuraiChamploo">
+      
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Samurai Champloo: </strong>3 misfits goes on adventure together in search of a mysterious samurai that smells of sunflowers. Fuu is a ditzy waitress, Mugen is a wild vagabond and Jin is a mysterious stoic ronin. The three of them travels all over Japan in adventure.
+Samurai Champloo is a unique anime that combines the Edo era setting with rap and hip-hop. The samurai battles in this anime are fluid and dynamic. Jin has your standard samurai fighting style while Mugen’s is pretty unique, incorporating breakdancing and other unconvential stuff in his fights.
+</p>
+<button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="bleach">
+      
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Bleach: </strong>Ichigo Kurosaki can see spirits, after witnessing and participating in one of the fights between a Shinigami and a Hollow, he ended up with Shinigami powers. As a Substitue Shinigami, he was forced to take on duties protecting his town from evil spirits and guiding souls to the the afterlife.
+
+Bleach focuses on sword fighting. The shinigami’s weapon, the Zanpakuto, is a katana. Ichigo’s main weapon is a large sword that turns into a katana.
+</p>
+<button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="gintama">
+      
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Gintama: </strong>Aliens have invaded and conquered Edo Japan. Gintoki is a freelancer, doing odd jobs here and there to make ends meet. Along the way he meets Shinpachi a guy that wants to be a samurai, and an alien girl name Kagura. The three of them starts a freelance shop.
+
+While mostly a gag anime, the fights in this anime rivals Bleach in terms of action. Gintoki is an excellent samurai and was known as the “White Devil” back during the war. If you want to watch a gag anime with good fights here and there this is the best choice. But be warned, some of the arcs are pretty sad and heavy.
+</p>
+<button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="inuYasha">
+      
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>InuYasha: </strong>Kagome is a 15 year old girl from Tokyo who timeslipped into the Sengoku era after falling into a well. There she mets the half demon Inuyasha. The two goes on a journey after Kagome unwittingly destroys the jewel embedded inside her to prevent Naraku, a powerful demon from collecting all the shards.
+
+      Inuyasha is a classic anime with some good fights. Inuyasha fights by wielding a sword named Tessaiga that’s created from the fang of his father.
+    </p>
+    <button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="fatestaynightUBW">
+      
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Fate/Stay Night: Unlimited Blade Works; </strong>Fuyuki City is the host for the Holy Grail War, a war where 7 magi along with their servants fight to win the Holy Grail, an artifact that can grant any wish. Emiya Shirou, an amateur mage, was unwittingly selected to become the participant in the Fifth Holy Grail.
+
+FSN is one of the best anime in recent times. Ufotable’s animation and choreography is top notch. The fights are extremely fluid and dynamic. A must watch if you want to see top class fights.
+</p>
+<button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="bloodplus">
+      
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Blood+</strong> focuses on Saya Otonashi, a seemingly normal girl that found out that only her blood can defeat a bat like monsters called Chiropterans. She travels around the world to get rid of the Chiropteran threat once and for all.
+
+Blood+ has a more realistic take to sword fighting. Unlike other animes there’s no shockwave, special attacks and other chuuni stuff here. Saya defeats her opponents with pure melee swordsmanship.
+</p>
+<button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    <div class="col-md-2 p-5 border border-dark" id="claymore">
+      
+    </div>
+    <div class="col-md-10 p-3 border border-dark" style="font-family: 'Cinzel Decorative', cursive; background-color: rgba(223, 223, 223, 0.8);">
+      <p><strong>Claymore</strong> is medieval fantasy set in an island. The island is riddled with shapeshifting monsters called Yoma. Yoma feeds on humans. To combat this a secretive group only known as ‘the organization’ implants young girls with yoma in order to create a breed of soldiers that can fight against the threat. These girls are called Claymores.
+Claymore is a dark gritty fantasy with an excellent story. Claymores mainly fight using a sword, using their sword style to defeat the Yoma which are normally more powerful than them.
+</p>
+<button type="button" class="btn btn-outline-dark border border-dark" style="font-weight: bold; background-color: rgba(197, 197, 197, 0.747);" id="infoButton">View Information</button>
+    </div>
+    </div>
+  </div>
+  </div>
 <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="allMessages">
+        
+  </div>
+  
+  <div class="userContainer">
+      <form>
+          <div class="inputContainer">
+              <div class="singleInput">
+                  <label for="username">Your name:</label>
+                  <input id="username" type="text">
+              </div>
+              <div class="singleInput">
+                  <label for="message">Message:</label>
+                  <input id="message" type="text">
+              </div>
+          </div>
+          <button id="submitButton">Submit</button>
+      </form>
+  </div> -->
