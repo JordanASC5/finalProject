@@ -1,7 +1,7 @@
 body {
     background-image: url("images/red-chinese-background.jpg");
 }
-h1 {
+#headerPic {
     text-align: left;
     position: absolute;
     right: 25%;
