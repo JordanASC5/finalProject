@@ -2,12 +2,27 @@ body {
     background-image: url("images/red-chinese-background.jpg");
 }
 h1 {
-    text-align: center;
+    text-align: left;
     position: absolute;
     right: 25%;
+}
+#pictureMargin {
+position: absolute;
+right: 1%; 
+}
+#informationTab {
+    position: absolute;
+    right: 40px;
+    bottom: 220px;
+    text-align: center;
+    white-space: nowrap;
 
 }
-#headerPic {
-    background-image: url("images/Plain-Weave.png");
-    opacity: 0.900;
+#informationTab2 {
+    position: absolute;
+    right: 40px;
+    bottom: 55px;
+    text-align: left;
+    white-space: nowrap;
+
 }
