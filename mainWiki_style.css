@@ -5,30 +5,34 @@ body {
     text-align: left;
     position: absolute;
     right: 25%;
+
+
 }
 #pictureMargin {
-position: absolute;
-right: 40px; 
-height: 319px;
-bottom: 248px;
-background-image: url(https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+    position: absolute;
+    right: 40px;
+    height: 319px;
+    bottom: 180px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
 }
 #informationTab {
     position: absolute;
     right: 40px;
-    bottom: 200px;
+    bottom: 135px;
     text-align: center;
     white-space: nowrap;
+
 
 }
 #informationTab2 {
     position: absolute;
     right: 40px;
-    bottom: 35px;
+    bottom: 50px;
     text-align: left;
     white-space: nowrap;
-
 }
