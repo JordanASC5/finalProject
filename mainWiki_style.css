@@ -1,10 +1,12 @@
 body {
     background-image: url("images/red-chinese-background.jpg");
+    overflow: auto;
 }
 #headerPic {
     text-align: left;
     position: absolute;
     right: 25%;
+    bottom: 460px;
 
 
 }
@@ -12,7 +14,7 @@ body {
     position: absolute;
     right: 40px;
     height: 319px;
-    bottom: 180px;
+    bottom: 10px;
     background-image: url(https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +25,7 @@ body {
 #informationTab {
     position: absolute;
     right: 40px;
-    bottom: 135px;
+    bottom: 85px;
     text-align: center;
     white-space: nowrap;
 
@@ -32,7 +34,16 @@ body {
 #informationTab2 {
     position: absolute;
     right: 40px;
-    bottom: 50px;
+    bottom: 0px;
     text-align: left;
     white-space: nowrap;
+}
+#gameSummary {
+    position: absolute;
+    bottom: 65%;
+}
+#bodyParagraph {
+    position: absolute;
+    bottom: 30%;
+    justify-content: flex-start;
 }
